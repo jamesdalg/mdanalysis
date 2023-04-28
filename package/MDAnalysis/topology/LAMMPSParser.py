@@ -263,6 +263,7 @@ class DATAParser(TopologyReaderBase):
         MDAnalysis Topology object.
         """
         # Can pass atom_style to help parsing
+        breakpoint()
         try:
             self.style_dict = self._interpret_atom_style(kwargs['atom_style'])
         except KeyError:
